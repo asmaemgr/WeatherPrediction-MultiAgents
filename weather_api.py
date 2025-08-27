@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import os
 
 API_KEY = os.getenv("OPENWEATHER_API_KEY")
 CITY = "Casablanca"
